@@ -1,0 +1,23 @@
+{
+  "name": "http_rest",
+  "version": "1.0.0",
+  "description": "JS401 Lab-06",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmerlemeier-401-advanced-javascript/http_rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmerlemeier-401-advanced-javascript/http_rest/issues"
+  },
+  "homepage": "https://github.com/jmerlemeier-401-advanced-javascript/http_rest#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
