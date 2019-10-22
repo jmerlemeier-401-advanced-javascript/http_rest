@@ -56,6 +56,68 @@ paths:
         - url: 'http://localhost:3000'
     servers:
       - url: 'http://localhost:3000'
+  /products/0808889:
+    put:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+                _id:
+                  type: string
+                category:
+                  type: string
+                display_name:
+                  type: string
+            examples:
+              '0':
+                value: |-
+                  {
+                          "_id": "0808889",
+                          "category": "feline",
+                          "name": "Butters",
+                          "display_name": "B",
+                          "description": "sweet cat"
+                  }
+              '1':
+                value: |-
+                  {
+                          "_id": "0808889",
+                          "category": "feline",
+                          "name": "Butters",
+                          "display_name": "B",
+                          "description": "sweet cat"
+                  }
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    delete:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    servers:
+      - url: 'http://localhost:3000'
   /categories:
     get:
       description: Auto generated using Swagger Inspector
@@ -94,6 +156,54 @@ paths:
                       "display_name": "Pip",
                       "description": "monster cat"
                   }
+      responses:
+        '201':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    servers:
+      - url: 'http://localhost:3000'
+  /products:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    post:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+            examples:
+              '0':
+                value: |-
+                  [
+                      {
+                          "_id": "121212",
+                          "category": "animal",
+                          "name": "Butters",
+                          "display_name": "Bee",
+                          "description": "sweet cat"
+                      },
+                      {
+                          "_id": "wdvE7Wa"
+                      }
+                  ]
       responses:
         '201':
           description: Auto generated using Swagger Inspector

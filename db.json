@@ -9,11 +9,11 @@
   ],
   "products": [
     {
-      "_id": "0808889",
+      "_id": "123456",
+      "name": "Bob Ross",
       "category": "Pippa Luigi",
-      "name": "Pip",
-      "display_name": "monster cat",
-      "description": "monster cat"
+      "display_name": "monster",
+      "description": "cat"
     }
   ]
 }
