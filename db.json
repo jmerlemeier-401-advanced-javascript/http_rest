@@ -1,1 +1,19 @@
-{}
+{
+  "categories": [
+    {
+      "_id": "0808889",
+      "name": "Pippa Luigi",
+      "display_name": "Pip",
+      "description": "monster cat"
+    }
+  ],
+  "products": [
+    {
+      "_id": "0808889",
+      "category": "Pippa Luigi",
+      "name": "Pip",
+      "display_name": "monster cat",
+      "description": "monster cat"
+    }
+  ]
+}

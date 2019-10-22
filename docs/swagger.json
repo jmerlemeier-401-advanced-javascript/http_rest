@@ -1,0 +1,108 @@
+openapi: 3.0.1
+info:
+  title: defaultTitle
+  description: defaultDescription
+  version: '0.1'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /categories/11111:
+    put:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+                _id:
+                  type: string
+                display_name:
+                  type: string
+            examples:
+              '0':
+                value: |-
+                  {
+                      "_id": "11111",
+                      "name": "David",
+                      "display_name": "Pip",
+                      "description": "monster cat"
+                  }
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    delete:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    servers:
+      - url: 'http://localhost:3000'
+  /categories:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        '200':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    post:
+      description: Auto generated using Swagger Inspector
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+                _id:
+                  type: string
+                display_name:
+                  type: string
+            examples:
+              '0':
+                value: |-
+                  {
+                      "_id": "11111",
+                      "name": "Pippa Luigi",
+                      "display_name": "Pip",
+                      "description": "monster cat"
+                  }
+      responses:
+        '201':
+          description: Auto generated using Swagger Inspector
+          content:
+            application/json; charset=utf-8:
+              schema:
+                type: string
+              examples: {}
+      servers:
+        - url: 'http://localhost:3000'
+    servers:
+      - url: 'http://localhost:3000'
