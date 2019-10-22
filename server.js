@@ -12,7 +12,6 @@ router.render = (req, res) => {
   })
 }
 
-
 server.use(router);
 server.use(middleware);
 server.listen(3000, () => {
